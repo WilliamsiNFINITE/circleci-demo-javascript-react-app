@@ -9,7 +9,7 @@ orbs:
 #    jobs:
 #      - test
 #
-#jobs:
+jobs:
 #  test:
 #    docker:
 #      - image: cimg/node:18.0.0
