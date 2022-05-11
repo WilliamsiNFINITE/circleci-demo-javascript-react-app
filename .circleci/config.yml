@@ -14,8 +14,13 @@ jobs:
       - image: cimg/node:18.0.0
     steps:
       - checkout
-      - run: node --version
-#
+      - run:
+          name : Install dependencies
+          command : npm install
+      - run :
+          name : Run test
+          command : npm run test
+
 #
 #
 #  build_and_test:
