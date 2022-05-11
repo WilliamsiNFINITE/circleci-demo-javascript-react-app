@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name : Install dependencies
-          command : npm install
+          command : npm install --force
       - run :
           name : Run test
           command : npm run test
